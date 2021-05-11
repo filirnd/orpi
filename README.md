@@ -17,3 +17,6 @@ This script simplify a clean installation and configuration of tor/nginx for set
 ``` cd orpi; chmod +x install.sh; ./install.sh ```
 
 Enjoy your new onion website!
+
+
+Inspired by a video of NetworkChuck (https://www.youtube.com/watch?v=bllS9tkCkaM)
