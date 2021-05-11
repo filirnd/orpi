@@ -24,9 +24,6 @@ service tor restart
 echo "#-#-# Installing nginx #-#-#"
 apt install -y nginx
 
-echo "#-#-# Starting nginx #-#-#"
-service nginx start
-
 echo "#-#-# Configuring nginx #-#-#"
 line="server_tokens off"
 sed -i "/${line}/ s/# *//" /etc/nginx/nginx.conf
@@ -37,6 +34,8 @@ sed -i "/${line}/a ${line2}" /etc/nginx/nginx.conf
 line="server_name_in_redirect off"
 sed -i "/${line}/ s/# *//" /etc/nginx/nginx.conf
 
+echo "#-#-# Starting nginx #-#-#"
+service nginx start
 
 echo "#-#-# Your site is up on: #-#-#"
 cat /var/lib/tor/hidden_service/hostname
