@@ -19,4 +19,7 @@ This script simplify a clean installation and configuration of tor/nginx for set
 Enjoy your new onion website!
 
 
-Inspired by a video of NetworkChuck (https://www.youtube.com/watch?v=bllS9tkCkaM)
+### Buy me a coffee
+If this software help you and want to support me, buy me a coffee <3
+
+[<img src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" width="250"/>](https://www.paypal.com/donate?business=7WJ563Y2436MA&currency_code=EUR)
