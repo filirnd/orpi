@@ -1,6 +1,6 @@
 README
 
-## O-RPi - Onion Rasperry Pi
+## O-RPi - Onion Raspberry Pi
 ### Simplify installation of new onion website on your raspberry pi.
 
 This script simplify a clean installation and configuration of tor/nginx for setting up a new onion node on tor network for deepweb sites on your raspberry pi
